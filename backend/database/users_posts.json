@@ -1,0 +1,62 @@
+[
+  {
+    "name": "John",
+    "id": 101,
+    "title": "The Art of Whiskey Tasting",
+    "body": "A guide to appreciating the complex flavors and aromas of different whiskey varieties."
+  },
+  {
+    "name": "Emily",
+    "id": 102,
+    "title": "Distilling the Perfect Whiskey",
+    "body": "An in-depth look at the whiskey-making process, from fermentation to aging."
+  },
+  {
+    "name": "Michael",
+    "id": 103,
+    "title": "Whiskey and Food Pairings",
+    "body": "Discover how to pair whiskey with different foods to enhance the experience."
+  },
+  {
+    "name": "John",
+    "id": 104,
+    "title": "Exploring Bourbon",
+    "body": "A journey into the world of bourbon, its history, and what makes it unique."
+  },
+  {
+    "name": "Sarah",
+    "id": 105,
+    "title": "Whiskey Around the World",
+    "body": "A travel diary exploring whiskey cultures from Scotland to Japan."
+  },
+  {
+    "name": "David",
+    "id": 106,
+    "title": "Whiskey Cocktails for Every Occasion",
+    "body": "From classics to modern twists, explore whiskey-based cocktails for any event."
+  },
+  {
+    "name": "Emily",
+    "id": 107,
+    "title": "Collecting Rare Whiskeys",
+    "body": "A guide for whiskey enthusiasts looking to start or expand their collection of rare bottles."
+  },
+  {
+    "name": "Michael",
+    "id": 108,
+    "title": "Investing in Whiskey",
+    "body": "An overview of how whiskey has become a viable investment option for collectors."
+  },
+  {
+    "name": "Jessica",
+    "id": 109,
+    "title": "Craft Whiskey Distilleries",
+    "body": "Highlighting some of the best craft whiskey distilleries and what sets them apart."
+  },
+  {
+    "name": "Sarah",
+    "id": 110,
+    "title": "The Evolution of Whiskey Glassware",
+    "body": "How glassware shapes the whiskey experience and enhances flavor."
+  }
+]

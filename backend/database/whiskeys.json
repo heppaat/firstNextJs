@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Jameson Irish Whiskey",
+    "description": "A smooth, versatile Irish whiskey with a hint of vanilla, nuts, and spices. Distilled three times for exceptional smoothness."
+  },
+  {
+    "id": 2,
+    "name": "Jack Daniel's Tennessee Whiskey",
+    "description": "A popular American whiskey with a slightly sweet flavor, rich notes of caramel, vanilla, and toasted oak."
+  },
+  {
+    "id": 3,
+    "name": "Glenfiddich 12 Year Old Single Malt Scotch Whisky",
+    "description": "A light and fresh single malt scotch with notes of pear, oak, and subtle spices. Matured in oak casks for 12 years."
+  },
+  {
+    "id": 4,
+    "name": "Lagavulin 16 Year Old Single Malt Scotch Whisky",
+    "description": "A rich and intense scotch whisky known for its smoky peat flavor with hints of vanilla and dried fruit."
+  },
+  {
+    "id": 5,
+    "name": "Maker's Mark Bourbon Whiskey",
+    "description": "A classic Kentucky bourbon with a smooth, sweet flavor featuring caramel, vanilla, and a hint of oak."
+  },
+  {
+    "id": 6,
+    "name": "Bushmills Black Bush",
+    "description": "A premium Irish whiskey with rich, dark fruit flavors, and nutty tones, finished with a sherry cask influence."
+  },
+  {
+    "id": 7,
+    "name": "Woodford Reserve Kentucky Straight Bourbon",
+    "description": "A sophisticated bourbon with notes of dried fruit, vanilla, and spice, balanced by a rich, full-bodied flavor."
+  },
+  {
+    "id": 8,
+    "name": "Balvenie DoubleWood 12 Year Old",
+    "description": "A single malt scotch matured in two types of wood, giving it a complex flavor with notes of honey, vanilla, and dried fruit."
+  },
+  {
+    "id": 9,
+    "name": "Bulleit Bourbon",
+    "description": "A bold bourbon with high rye content, featuring spicy notes of pepper, vanilla, and oak for a distinct, smooth taste."
+  },
+  {
+    "id": 10,
+    "name": "Laphroaig 10 Year Old Islay Single Malt Scotch Whisky",
+    "description": "An iconic smoky Islay scotch with intense peat flavor, complemented by hints of seaweed, iodine, and sweetness."
+  }
+]
