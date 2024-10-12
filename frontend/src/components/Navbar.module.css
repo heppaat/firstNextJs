@@ -1,0 +1,32 @@
+.nav {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav li {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.nav li:first-child {
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+.nav li a {
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 8px 16px;
+}
+
+.nav li:first-child a {
+  border: none;
+}
