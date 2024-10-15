@@ -7,12 +7,17 @@
   width: 100%;
   list-style: none;
   display: flex;
+  gap: 50px;
   justify-content: flex-end;
   align-items: center;
 }
 
 .nav li {
   height: 50px;
+}
+
+.logo {
+  padding-top: 15px;
 }
 
 .nav a {
@@ -50,10 +55,10 @@
   position: fixed;
   top: 0;
   right: 0;
-  height: 100vh;
+  height: 50vh;
   width: 300px;
   z-index: 1;
-  background-color: rgb(221, 132, 206);
+  background-color: rgb(247, 246, 242);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;

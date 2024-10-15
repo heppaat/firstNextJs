@@ -4,7 +4,7 @@ import Logo from "./icons/Logo";
 import classes from "./Navbar.module.css";
 import Hamburger from "./icons/Hamburger";
 import Close from "./icons/Close";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
   const [sidebar, setSidebar] = useState<boolean>(false);
@@ -12,6 +12,20 @@ export default function Navbar() {
   const toggleSidebar = () => {
     setSidebar((prev) => !prev);
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 800 && sidebar) {
+        setSidebar(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [sidebar]);
 
   const navBar = sidebar ? (
     <nav className={classes.sidebar}>
@@ -37,9 +51,9 @@ export default function Navbar() {
     <nav className={classes.nav}>
       <ul>
         <li>
-          <Link href="/">
+          <div className={classes.logo}>
             <Logo />
-          </Link>
+          </div>
         </li>
         <li>
           <Link href="/">Home</Link>
