@@ -15,7 +15,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 800 && sidebar) {
+      if (window.innerWidth > 900 && sidebar) {
         setSidebar(false);
       }
     };
@@ -27,52 +27,54 @@ export default function Navbar() {
     };
   }, [sidebar]);
 
-  const navBar = sidebar ? (
-    <nav className={classes.sidebar}>
-      <ul>
-        <li>
-          <Close myClass={classes.x} click={toggleSidebar} />
-        </li>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/about">About</Link>
-        </li>
-        <li>
-          <Link href="/whiskeys">Whiskeys</Link>
-        </li>
-        <li>
-          <Link href="/posts">Posts</Link>
-        </li>
-      </ul>
-    </nav>
-  ) : (
-    <nav className={classes.nav}>
-      <ul>
-        <li>
-          <div className={classes.logo}>
-            <Logo />
-          </div>
-        </li>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/about">About</Link>
-        </li>
-        <li>
-          <Link href="/whiskeys">Whiskeys</Link>
-        </li>
-        <li>
-          <Link href="/posts">Posts</Link>
-        </li>
-        <li onClick={toggleSidebar}>
-          <Hamburger myClass={classes.hamburger} />
-        </li>
-      </ul>
-    </nav>
+  return (
+    <>
+      <nav className={classes.nav}>
+        <ul>
+          <li>
+            <div className={classes.logo}>
+              <Logo />
+            </div>
+          </li>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/about">About</Link>
+          </li>
+          <li>
+            <Link href="/whiskeys">Whiskeys</Link>
+          </li>
+          <li>
+            <Link href="/posts">Posts</Link>
+          </li>
+          <li onClick={toggleSidebar}>
+            {sidebar ? (
+              <Close myClass={classes.x} />
+            ) : (
+              <Hamburger myClass={classes.hamburger} />
+            )}
+          </li>
+        </ul>
+      </nav>
+      {sidebar && (
+        <nav className={classes.sidebar}>
+          <ul>
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
+              <Link href="/about">About</Link>
+            </li>
+            <li>
+              <Link href="/whiskeys">Whiskeys</Link>
+            </li>
+            <li>
+              <Link href="/posts">Posts</Link>
+            </li>
+          </ul>
+        </nav>
+      )}
+    </>
   );
-
-  return <>{navBar}</>;
 }

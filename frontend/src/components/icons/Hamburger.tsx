@@ -7,7 +7,7 @@ export default function Hamburger(props: { myClass: string }) {
         height="24px"
         viewBox="0 -960 960 960"
         width="24px"
-        fill="black"
+        fill="#fefbf1"
       >
         <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
       </svg>
