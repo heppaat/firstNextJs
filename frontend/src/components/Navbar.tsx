@@ -29,34 +29,36 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className={classes.nav}>
-        <ul>
-          <li>
-            <div className={classes.logo}>
-              <Logo />
-            </div>
-          </li>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/about">About</Link>
-          </li>
-          <li>
-            <Link href="/whiskeys">Whiskeys</Link>
-          </li>
-          <li>
-            <Link href="/posts">Posts</Link>
-          </li>
-          <li onClick={toggleSidebar}>
-            {sidebar ? (
-              <Close myClass={classes.x} />
-            ) : (
-              <Hamburger myClass={classes.hamburger} />
-            )}
-          </li>
-        </ul>
-      </nav>
+      <header>
+        <nav className={classes.nav}>
+          <ul>
+            <li>
+              <div className={classes.logo}>
+                <Logo />
+              </div>
+            </li>
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            <li>
+              <Link href="/about">About</Link>
+            </li>
+            <li>
+              <Link href="/whiskeys">Whiskeys</Link>
+            </li>
+            <li>
+              <Link href="/posts">Posts</Link>
+            </li>
+            <li onClick={toggleSidebar}>
+              {sidebar ? (
+                <Close myClass={classes.x} />
+              ) : (
+                <Hamburger myClass={classes.hamburger} />
+              )}
+            </li>
+          </ul>
+        </nav>
+      </header>
       {sidebar && (
         <nav className={classes.sidebar}>
           <ul>
