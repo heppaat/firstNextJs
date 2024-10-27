@@ -48,5 +48,15 @@
     "id": 10,
     "name": "Laphroaig 10 Year Old Islay Single Malt Scotch Whisky",
     "description": "An iconic smoky Islay scotch with intense peat flavor, complemented by hints of seaweed, iodine, and sweetness."
+  },
+  {
+    "id": 11,
+    "name": "Laphroaig 10 Year Old Islay Single Malt Scotch Whisky",
+    "description": "An iconic smoky Islay scotch with intense peat flavor, complemented by hints of seaweed, iodine, and sweetness."
+  },
+  {
+    "id": 12,
+    "name": "Bulleit Bourbon",
+    "description": "A bold bourbon with high rye content, featuring spicy notes of pepper, vanilla, and oak for a distinct, smooth taste."
   }
 ]
